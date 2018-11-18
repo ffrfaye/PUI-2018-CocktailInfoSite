@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+.hoverTable {
+  text-decoration: none;
+  margin-top: 15px;
+  width: 30%;
+  Font-Family: 'Merriweather Sans', Sans-Serif;
+  Font-Size: 15px;
+}
+
+.hoverTable tr{
+  background-color: white;
+}
+
+.hoverTable th:hover{
+  background-color: #FFC7A0;
+}
+
+#mainpageimg {
+  width: 50%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
+
+.titlebox{
+  margin-top: 10%;
+}
+
+#mainpagetitle {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+#mainpageButton{
+  width: 200px;
+  height: 60px;
+  background-color: #5dc4c6;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 100px;
+  font-size: 15px;
+  font-family: 'Overpass Mono', monospace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
