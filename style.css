@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
+}
 
-
+body, html {
+    height: 100%;
 }
 
 .hoverTable {
@@ -39,7 +41,7 @@
   align-items: center;
 }
 
-#mainpageButton{
+#mainpageButton {
   width: 200px;
   height: 60px;
   background-color: #5dc4c6;
@@ -50,4 +52,83 @@
   font-size: 15px;
   font-family: 'Overpass Mono', monospace;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bg {
+    background-image: url('worldwbg@3x.png');
+    /* Full height */
+    height: 80%;
+
+    position: relative;
+
+    margin-top: 5%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bg img {
+  opacity: 0%;
+}
+
+#vodka {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  overflow: hidden;
+  height: 18%;
+  width: 8%;
+
+  background-image:url("vodka.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tequila {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  overflow: hidden;
+  height: 18%;
+  width: 8%;
+
+  background-image:url("tequila.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#rum {
+  position: absolute;
+  top: 48%;
+  left: 25%;
+  overflow: hidden;
+  height: 18%;
+  width: 8%;
+
+  background-image:url("rum.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#gin {
+  position: absolute;
+  top: 17%;
+  left: 42%;
+  overflow: hidden;
+  height: 18%;
+  width: 8%;
+
+  background-image:url("gin.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
