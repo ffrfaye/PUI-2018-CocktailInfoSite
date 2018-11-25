@@ -1,25 +1,11 @@
+
+
 * {
     box-sizing: border-box;
 }
 
 body, html {
     height: 100%;
-}
-
-.hoverTable {
-  text-decoration: none;
-  margin-top: 15px;
-  width: 30%;
-  Font-Family: 'Merriweather Sans', Sans-Serif;
-  Font-Size: 15px;
-}
-
-.hoverTable tr{
-  background-color: white;
-}
-
-.hoverTable th:hover{
-  background-color: #FFC7A0;
 }
 
 #mainpageimg {
@@ -30,7 +16,7 @@ body, html {
 }
 
 .titlebox{
-  margin-top: 10%;
+  margin-top: 13%;
 }
 
 #mainpagetitle {
@@ -41,7 +27,7 @@ body, html {
   align-items: center;
 }
 
-#mainpageButton {
+.mainpageButton {
   width: 200px;
   height: 60px;
   background-color: #5dc4c6;
@@ -54,6 +40,11 @@ body, html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#liquorPageButton {
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
 #bg {
     background-image: url('worldwbg@3x.png');
     /* Full height */
@@ -61,7 +52,7 @@ body, html {
 
     position: relative;
 
-    margin-top: 5%;
+    margin-top: 7%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -152,7 +143,7 @@ body, html {
   height: 250px;
   background-color: #FBFBFB;
   border-width: medium;
-  margin-top: 100px;
+  margin-top: 150px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -189,4 +180,117 @@ body, html {
 
 #ginflat {
   background-image:url("ginflat.png");
+}
+
+#tequilaflat {
+  background-image:url("tequilaflat.png");
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  height: 100%;
+  width: 100%;
+  padding-left: 18%;
+  padding-right: 15%;
+  padding-top: 150px;
+}
+
+.grid-container > div {
+  height: 120px;
+  width: 120px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-container a {
+  height: 120px;
+  width: 120px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-container button {
+  height: 120px;
+  width: 120px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+  border-width: 0;
+}
+
+.bramble {
+  background-image: url("bramble.png");
+  height: 100% ;
+}
+
+#elderflower {
+  background-image: url("elderflower.png");
+}
+
+#negroni {
+  background-image: url("negroni.png");
+}
+
+#gimlet {
+  background-image: url("gimlet.png");
+}
+
+#gnt {
+  background-image: url("gnt.png");
+  background-size: 65%;
+}
+
+#bramblexl{
+  background-image: url("bramblexl.png");
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
