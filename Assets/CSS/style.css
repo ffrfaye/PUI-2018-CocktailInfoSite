@@ -1,5 +1,3 @@
-
-
 * {
     box-sizing: border-box;
 }
@@ -46,7 +44,7 @@ body, html {
 }
 
 #bg {
-    background-image: url('worldwbg@3x.png');
+    background-image: url('../images/worldwbg@3x.png');
     /* Full height */
     height: 80%;
 
@@ -72,7 +70,7 @@ body, html {
   height: 18%;
   width: 8%;
 
-  background-image:url("vodka.png");
+  background-image:url("../images/vodka.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +85,7 @@ body, html {
   height: 18%;
   width: 8%;
 
-  background-image:url("tequila.png");
+  background-image:url("../images/tequila.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +100,7 @@ body, html {
   height: 18%;
   width: 8%;
 
-  background-image:url("rum.png");
+  background-image:url("../images/rum.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +115,7 @@ body, html {
   height: 18%;
   width: 8%;
 
-  background-image:url("gin.png");
+  background-image:url("../images/gin.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +128,7 @@ body, html {
   height: 100px;
   width: 100px;
 
-  background-image:url("icon.png");
+  background-image:url("../images/icon.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,11 +177,11 @@ body, html {
 }
 
 #ginflat {
-  background-image:url("ginflat.png");
+  background-image:url("../images/ginflat.png");
 }
 
 #tequilaflat {
-  background-image:url("tequilaflat.png");
+  background-image:url("../images/tequilaflat.png");
 }
 
 .grid-container {
@@ -231,66 +229,142 @@ body, html {
   border-width: 0;
 }
 
-.bramble {
-  background-image: url("bramble.png");
+#bramble {
+  background-image: url("../images/bramble.png");
+  height: 100% ;
+}
+
+#french75 {
+  background-image: url("../images/french75.png");
   height: 100% ;
 }
 
 #elderflower {
-  background-image: url("elderflower.png");
+  background-image: url("../images/elderflower.png");
+  height: 100% ;
 }
 
 #negroni {
-  background-image: url("negroni.png");
+  background-image: url("../images/negroni.png");
+  height: 100% ;
 }
 
 #gimlet {
-  background-image: url("gimlet.png");
+  background-image: url("../images/gimlet.png");
+  height: 100% ;
 }
 
 #gnt {
-  background-image: url("gnt.png");
-  background-size: 65%;
+  background-image: url("../images/gnt.png");
+  background-size: 80%;
+  height: 100% ;
+}
+
+.cocktailDetails {
+  margin-left: 15%;
+  height: 400px;
+  width: 500px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
 }
 
 #bramblexl{
-  background-image: url("bramblexl.png");
+  background-image: url("../images/bramblexl.png");
+}
+
+#french75xl{
+  background-image: url("../images/french75xl.png");
+}
+
+#negronixl{
+  background-image: url("../images/negronixl.png");
+}
+
+#gimletxl{
+  background-image: url("../images/gimletxl.png");
+}
+
+#gntxl{
+  background-image: url("../images/gntxl.png");
+}
+
+#elderflowerxl{
+  background-image: url("../images/elderflowerxl.png");
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 8% auto; /* 10% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+/* Formatting the texts in Cocktail modals*/
+.cocktailText {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: auto;
+  margin-bottom: 5%;
+  Font-Family: 'Lato', Sans-Serif;
+  Font-Size: 17px;
+}
+
+.modalBtn:hover {
+  cursor: pointer;
+  border-width: thick;
+  border-color: #5dc4c6;
+}
+
+#adaptiveDiv {
+  display: none;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

@@ -2,14 +2,15 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- jquery -->
+    <!-- js/jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- style -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:600|Merriweather+Sans:300|Overpass+Mono|Arvo|Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="../CSS/animate.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <!-- javascript -->
-    <script src="main.js" type="text/javascript"></script>
+    <script src="../JS/main.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -19,16 +20,19 @@
       <div class="row">
         <div class="col-sm-12">
           <a href="index.html"><div id="icon" align="left"></div></a>
-
         </div>
+      </div>
+
+      <div id="adaptiveDiv" class="col-sm-5">
+        <div class
       </div>
     </div>
 
-    <div id="bg" position="relative">
-      <div id="vodka"></div>
-      <a href="tequila.html"><div id="tequila"></div></a>
-      <div id="rum"></div>
-      <a href="gin.html"><div id="gin"></div></a>
+    <div id="bg" class="animated fadeIn" position="relative">
+      <div id="vodka" class="animated flipInX"></div>
+      <a href="tequila.html"><div id="tequila" class="animated flipInX"></div></a>
+      <div id="rum" class="animated flipInX"></div>
+      <a href="gin.html"><div id="gin" class="animated flipInX"></div></a>
     </div>
 
   </body>

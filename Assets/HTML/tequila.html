@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- js/jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- style -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:600|Merriweather+Sans:300|Overpass+Mono|Arvo|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/animate.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+  </head>
+
+  <body>
+
+    <div class="container-fluid animated fadeIn">
+      <!-- 1st row: Nav bar -->
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="browse.html"><div id="icon" align="left"></div></a>
+
+        </div>
+      </div>
+      <!-- 2nd row: description card + types of cocktails-->
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="liquorDescription animated zoomIn">
+            <div class="liquorPic" id="tequilaflat" align="left"></div>
+            <div class="liquorText">Gin is liquor which derives its predominant
+              flavour from <strong>juniper berries</strong>. From its earliest
+              origins, the drink has evolved from a herbal medicine to an object
+               of commerce in the spirits industry. Gin was developed based on
+               the older Dutch liquor, jenever, and became popular in <strong>Great
+                 Britain</strong>.</div>
+          </div>
+          <a href="browse.html"><button type="button" class="mainpageButton animated zoomIn" id="liquorPageButton">
+            <strong>< Back to Map</strong></button></a>
+        </div>
+        <div class="col-sm-7">
+          <div class="grid-container">
+            <button class="modalBtn" id="bramble" data-index=0></button>
+            <button class="modalBtn" id="french75" data-index=1></button>
+            <button class="modalBtn" id="negroni" data-index=2></button>
+            <button class="modalBtn" id="gimlet" data-index=3></button>
+            <button class="modalBtn" id="gnt" data-index=4></button>
+            <button class="modalBtn" id="elderflower" data-index=5></button>
+          </div>
+        </div>
+
+        <!-- Cocktail 1: Bramble -->
+        <div class="cocktailsModal modal" data-index=0>
+          <div class="modal-content animated rollIn">
+            <span class="close" align="right" data-index=0>&times;</span>
+            <div class="cocktailDetails" id="bramblexl"></div>
+            <div class="cocktailText">Take a large measure of dry gin and shake
+              together with the lemon and sugar syrup, pour over crushed ice and
+              drizzle the crème de mure through the drink. Garnish with a lemon
+              zest or some fresh seasonal berries. A true party pleaser.</div>
+          </div>
+        </div>
+
+        <!-- Cocktail 2: French 75 -->
+        <div class="cocktailsModal modal" data-index=1>
+          <div class="modal-content animated rollIn">
+            <span class="close" align="right" data-index=1>&times;</span>
+            <div class="cocktailDetails" id="french75xl"></div>
+            <div class="cocktailText">Party time! This one uses smaller amounts
+              of spirits to allow the fizz flavour to flourish. Mix the gin,
+              orange liqueur and lemon juice in a flute and top with chilled
+              bubbly. Continue to party like it’s 2099.</div>
+          </div>
+        </div>
+
+        <!-- Cocktail 3: Negroni -->
+        <div class="cocktailsModal modal" data-index=2>
+          <div class="modal-content animated rollIn">
+            <span class="close" align="right" data-index=2>&times;</span>
+            <div class="cocktailDetails" id="negronixl"></div>
+            <div class="cocktailText">Italians believe you need to drink three of
+               these before you begin to enjoy them (not in one night though). Pour
+                the gin, sweet vermouth and Campari into your favourite rocks glass
+                 over ice. Stir it down to your preferred taste. Then, zest the orange
+                  with true Italian flair over the glass and add the citrus to the
+                  potion. Forget minutes – you can make this in seconds.</div>
+          </div>
+        </div>
+
+        <!-- Cocktail 4: Gimlet -->
+        <div class="cocktailsModal modal" data-index=3>
+          <div class="modal-content animated rollIn">
+            <span class="close" align="right" data-index=3>&times;</span>
+            <div class="cocktailDetails" id="gimletxl"></div>
+            <div class="cocktailText">What shall we do with the drunken sailor?
+              Note that your cordial can be shop-bought or homemade and it’s fun
+               to mix it up with the seasons. This ratio of two parts gin to one
+                part cordial dances in the glass. Stir down, pour into a glamorous
+                 coupe and garnish how you please. I enjoy a slapped sage leaf.</div>
+          </div>
+        </div>
+
+        <!-- Cocktail 5: Gin and Tonic -->
+        <div class="cocktailsModal modal" data-index=4>
+          <div class="modal-content animated rollIn">
+            <span class="close" align="right" data-index=4>&times;</span>
+            <div class="cocktailDetails" id="gntxl"></div>
+            <div class="cocktailText">The headline act. A gin and tonic evolves
+              into something far more complex wih the right twists. Celebrate
+              this piece of heritage with a glorious serve, always using one part
+               gin to two parts tonic. </div>
+          </div>
+        </div>
+
+        <!-- Cocktail 6: Elderflower Collins -->
+        <div class="cocktailsModal modal" data-index=5>
+          <div class="modal-content animated rollIn">
+            <span class="close" align="right" data-index=5>&times;</span>
+            <div class="cocktailDetails" id="elderflowerxl"></div>
+            <div class="cocktailText">Shake up the gin with the lemon, sugar and
+               a dash of elderflower cordial. Pour over rock ice and lengthen with
+                sparkling water. Decorate with a sprig of your favourite herb.
+                If you’re feeling like a true vagabond then top with sparkling
+                wine to make an Elderflower Royale.</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
+  <!-- js/jquery -->
+  <script src="../JS/main.js" type="text/javascript"></script>
