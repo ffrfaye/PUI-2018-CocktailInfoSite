@@ -6,7 +6,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- style -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:600|Merriweather+Sans:300|Overpass+Mono|Arvo|Lato" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/animate.css">
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <!-- javascript -->
@@ -15,24 +14,48 @@
 
   <body>
 
-    <div class="container-fluid">
-      <!-- 1st row: Nav bar -->
-      <div class="row">
-        <div class="col-sm-12">
-          <a href="index.html"><div id="icon" align="left"></div></a>
+    <div id="icon-row">
+      <a href="index.html"><div id="icon" align="left"></div></a>
+    </div>
+
+    <div id="smallDeviceView" class="col-sm-5">
+      <div class="continentContainer">
+        <div class="continentTitle">Europe-Asia</div>
+        <div class="continentMap animated fadeIn" id="europe-asia">
+          <a href="gin.html"><div id="gin-sm" class="liquorBottle animated flipInX"></div></a>
+          <div id="vodka-sm" class="liquorBottle animated flipInX"></div>
+        </div>
+
+      </div>
+      <div class="continentContainer">
+        <div class="continentTitle">North America</div>
+        <div class="continentMap animated fadeIn" id="north-america">
+          <div id="rum-sm" class="liquorBottle animated flipInX"></div>
+        </div>
+
+      </div>
+      <div class="continentContainer">
+        <div class="continentTitle">South America</div>
+        <div class="continentMap animated fadeIn" id="south-america">
+          <a href="tequila.html"><div id="tequila-sm" class="liquorBottle animated flipInX"></div></a>
         </div>
       </div>
-
-      <div id="adaptiveDiv" class="col-sm-5">
-        <div class
+      <div class="continentContainer">
+        <div class="continentTitle">Oceania</div>
+        <div class="continentMap animated fadeIn" id="oceania"></div>
       </div>
+      <div class="continentContainer">
+        <div class="continentTitle">Africa</div>
+        <div class="continentMap animated fadeIn" id="africa"></div>
+      </div>
+
     </div>
 
     <div id="bg" class="animated fadeIn" position="relative">
-      <div id="vodka" class="animated flipInX"></div>
-      <a href="tequila.html"><div id="tequila" class="animated flipInX"></div></a>
-      <div id="rum" class="animated flipInX"></div>
-      <a href="gin.html"><div id="gin" class="animated flipInX"></div></a>
+      <div id="vodka" class="liquorBottle animated flipInX"></div>
+      <a href="tequila.html"><div id="tequila" class="liquorBottle animated flipInX"></div></a>
+      <div id="rum" class="liquorBottle animated flipInX"></div>
+      <a href="gin.html"><div id="gin" class="liquorBottle animated flipInX"></div></a>
     </div>
 
   </body>
