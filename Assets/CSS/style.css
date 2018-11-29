@@ -863,6 +863,10 @@ body, html {
   cursor: pointer;
 }
 
+.modalBtn {
+  background-color: white;
+}
+
 .modalBtn:hover {
   cursor: pointer;
   border-width: thick;
