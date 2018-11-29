@@ -532,8 +532,8 @@ body, html {
 }
 
 .liquorBottle:hover {
-  background-color: #BCFFFF;
-
+  box-shadow: 0px 0px 8px 8px rgba(206, 255, 255, 1), 8px 8px 8px 8px rgba(253, 255, 130, 1);
+  background-color: white;
 }
 
 #vodka-sm {
@@ -746,7 +746,7 @@ body, html {
 
 #margarita {
   background-image: url("../images/margarita.png");
-  height: 100% ;
+  height: 60% ;
 }
 
 #margaritaxl {
@@ -755,7 +755,7 @@ body, html {
 
 #manhattan {
   background-image: url("../images/manhattan.png");
-  height: 100% ;
+  height: 60% ;
 }
 
 #manhattanxl {
@@ -764,7 +764,7 @@ body, html {
 
 #sunrise {
   background-image: url("../images/sunrise.png");
-  height: 100% ;
+  height: 60% ;
 }
 
 #sunrisexl {
@@ -773,7 +773,7 @@ body, html {
 
 #paloma {
   background-image: url("../images/paloma.png");
-  height: 100% ;
+  height: 60% ;
 }
 
 #palomaxl {
