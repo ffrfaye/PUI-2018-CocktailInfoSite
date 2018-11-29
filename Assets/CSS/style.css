@@ -1,5 +1,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  /* Formatting for browse page. */
+  #smallDeviceView {
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+  }
+  #bg { display: none; }
+
+  /* Formatting for cocktail detail modals. */
   .cocktailText {
     width: 90%;
     margin-top: 10%;
@@ -22,23 +32,7 @@
     position: relative;
   }
 
-  #smallDeviceView {
-    display: block;
-    width: 100%;
-    margin-top: 10%;
-  }
-  #bg { display: none; }
-
-  .liquorCol {
-    width: 90%;
-    padding-left: 10%;
-  }
-
-  .cocktailCol {
-    width: 100%;
-    height: 500px;
-  }
-
+  /* Formatting for liquor detail pages. */
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -49,6 +43,14 @@
     margin-right: auto;
     padding-right: 15%;
     padding-top: 10%;
+  }
+  .liquorCol {
+    width: 90%;
+    padding-left: 10%;
+  }
+  .cocktailCol {
+    width: 100%;
+    height: 500px;
   }
 }
 
@@ -112,6 +114,50 @@
     padding-right: 15%;
     padding-top: 10%;
   }
+
+  #vodka {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/vodka.png");
+  }
+
+  #tequila {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/tequila.png");
+  }
+
+  #rum {
+    position: absolute;
+    top: 42%;
+    left: 16%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/rum.png");
+  }
+
+  #gin {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/gin.png");
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -172,6 +218,50 @@
     padding-right: 15%;
     padding-top: 10%;
   }
+
+  #vodka {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/vodka.png");
+  }
+
+  #tequila {
+    position: absolute;
+    top: 53%;
+    left: 24%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/tequila.png");
+  }
+
+  #rum {
+    position: absolute;
+    top: 42%;
+    left: 16%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/rum.png");
+  }
+
+  #gin {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    overflow: hidden;
+    height: 18%;
+    width: 8%;
+
+    background-image:url("../images/gin.png");
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -225,8 +315,8 @@
 
   #tequila {
     position: absolute;
-    top: 60%;
-    left: 35%;
+    top: 55%;
+    left: 24%;
     overflow: hidden;
     height: 18%;
     width: 8%;
@@ -236,8 +326,8 @@
 
   #rum {
     position: absolute;
-    top: 48%;
-    left: 25%;
+    top: 42%;
+    left: 16%;
     overflow: hidden;
     height: 18%;
     width: 8%;
@@ -247,8 +337,8 @@
 
   #gin {
     position: absolute;
-    top: 17%;
-    left: 42%;
+    top: 20%;
+    left: 40%;
     overflow: hidden;
     height: 18%;
     width: 8%;
@@ -328,7 +418,7 @@
   #tequila {
     position: absolute;
     top: 60%;
-    left: 35%;
+    left: 27%;
     overflow: hidden;
     height: 18%;
     width: 8%;
@@ -338,8 +428,8 @@
 
   #rum {
     position: absolute;
-    top: 48%;
-    left: 25%;
+    top: 45%;
+    left: 18%;
     overflow: hidden;
     height: 18%;
     width: 8%;
@@ -349,8 +439,8 @@
 
   #gin {
     position: absolute;
-    top: 17%;
-    left: 42%;
+    top: 18%;
+    left: 40%;
     overflow: hidden;
     height: 18%;
     width: 8%;
@@ -441,17 +531,6 @@ body, html {
   background-size: contain;
 }
 
-#vodka {
-  position: absolute;
-  top: 20%;
-  left: 65%;
-  overflow: hidden;
-  height: 18%;
-  width: 8%;
-
-  background-image:url("../images/vodka.png");
-}
-
 #vodka-sm {
   position: relative;
   top: -50%;
@@ -461,17 +540,6 @@ body, html {
   width: 80px;
 
   background-image:url("../images/vodka.png");
-}
-
-#tequila {
-  position: absolute;
-  top: 60%;
-  left: 35%;
-  overflow: hidden;
-  height: 18%;
-  width: 8%;
-
-  background-image:url("../images/tequila.png");
 }
 
 #tequila-sm {
@@ -485,17 +553,6 @@ body, html {
   background-image:url("../images/tequila.png");
 }
 
-#rum {
-  position: absolute;
-  top: 48%;
-  left: 25%;
-  overflow: hidden;
-  height: 18%;
-  width: 8%;
-
-  background-image:url("../images/rum.png");
-}
-
 #rum-sm {
   position: relative;
   top: 50%;
@@ -505,17 +562,6 @@ body, html {
   width: 80px;
 
   background-image:url("../images/rum.png");
-}
-
-#gin {
-  position: absolute;
-  top: 7%;
-  left: 42%;
-  overflow: hidden;
-  height: 18%;
-  width: 8%;
-
-  background-image:url("../images/gin.png");
 }
 
 #gin-sm {
@@ -625,6 +671,14 @@ body, html {
   background-image:url("../images/tequilaflat.png");
 }
 
+#vodkaflat {
+  background-image:url("../images/vodkaflat.png");
+}
+
+#rumflat {
+  background-image:url("../images/rumflat.png");
+}
+
 #bramble {
   background-image: url("../images/bramble.png");
   height: 100% ;
@@ -678,6 +732,87 @@ body, html {
 
 #elderflowerxl{
   background-image: url("../images/elderflowerxl.png");
+}
+
+#margarita {
+  background-image: url("../images/margarita.png");
+  height: 100% ;
+}
+
+#margaritaxl {
+  background-image: url("../images/margaritaxl.png");
+}
+
+#manhattan {
+  background-image: url("../images/manhattan.png");
+  height: 100% ;
+}
+
+#manhattanxl {
+  background-image: url("../images/manhattanxl.png");
+}
+
+#sunrise {
+  background-image: url("../images/sunrise.png");
+  height: 100% ;
+}
+
+#sunrisexl {
+  background-image: url("../images/sunrisexl.png");
+}
+
+#paloma {
+  background-image: url("../images/paloma.png");
+  height: 100% ;
+}
+
+#palomaxl {
+  background-image: url("../images/palomaxl.png");
+}
+
+#cranberry{
+  background-image: url("../images/cranberry.png");
+  height: 100%;
+}
+
+#cranberryxl{
+  background-image: url("../images/cranberryxl.png");
+}
+
+#mojito {
+  background-image: url("../images/mojito.png");
+  height: 100% ;
+}
+
+#mojitoxl {
+  background-image: url("../images/mojitoxl.png");
+}
+
+#tonic {
+  background-image: url("../images/tonic.png");
+  height: 100% ;
+}
+
+#tonicxl {
+  background-image: url("../images/tonicxl.png");
+}
+
+#soda {
+  background-image: url("../images/soda.png");
+  height: 100% ;
+}
+
+#sodaxl {
+  background-image: url("../images/sodaxl.png");
+}
+
+#espresso {
+  background-image: url("../images/espresso.png");
+  height: 100% ;
+}
+
+#espressoxl {
+  background-image: url("../images/espressoxl.png");
 }
 
 /* The Modal (background) */
@@ -764,4 +899,15 @@ body, html {
 
 #africa{
   background-image: url("../images/africa@3x.png");
+}
+
+.comingsoon {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  padding-left: 18%;
+  padding-right: 35%;
+  padding-top: 15%;
 }
