@@ -531,6 +531,11 @@ body, html {
   background-size: contain;
 }
 
+.liquorBottle:hover {
+  background-color: #BCFFFF;
+
+}
+
 #vodka-sm {
   position: relative;
   top: -50%;
@@ -586,6 +591,11 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+#icon:hover {
+  height: 120px;
+  width: 120px;
 }
 
 .liquorDescription {
