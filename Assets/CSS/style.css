@@ -824,7 +824,7 @@ body, html {
 #espressoxl {
   background-image: url("../images/espressoxl.png");
 }
-
+/* Used and modified w3school's modals and styles */
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -839,7 +839,7 @@ body, html {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
+/* The Modal content */
 .modal-content {
   background-color: #fefefe;
   margin: 8% auto; /* 10% from the top and centered */

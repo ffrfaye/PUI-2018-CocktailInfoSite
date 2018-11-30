@@ -1,3 +1,6 @@
+// Citation: used W3school's modal with javascript code.
+// Modified the functions to work for this project.
+
 // Get the modals
 var modal = document.getElementsByClassName("cocktailsModal");
 
